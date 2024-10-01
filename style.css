@@ -1,0 +1,284 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: whitesmoke;
+}
+
+.logo > img{
+    width: 150px;
+}
+
+.main-image img{
+    width: 80%;
+    height: 700px;
+}
+
+.smedia,
+.dcontact,
+.hoop {
+    background-color: thistle;
+    padding: 2px;
+    margin: 2px;
+    border-radius: 8px;
+}
+
+.smedia>h3,
+.dcontact>h3,
+.hoop>h3 {
+    text-align: center;
+    margin: 0px;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: slateblue;
+    background-color: tomato;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+}
+
+.smedia>ul {
+    color: steelblue;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.cinfo {
+    background-color: slateblue;
+    border-radius: 8px;
+}
+
+.contact {
+    background-color: slateblue;
+    border-radius: 8px;
+}
+
+.contact>h3,
+.cinfo>h3 {
+    padding: 4px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: lightblue;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+    color: tomato;
+}
+
+.contact>p,
+.cinfo>address {
+    padding: 4px;
+    margin: 4px;
+    color: sandybrown;
+}
+
+.story,
+.intro>h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: blue;
+}
+
+.intro,
+.story>p {
+    color: teal;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.value,
+.expertise,
+.about {
+    margin: 6px;
+    padding: 10px;
+    background-color: slateblue;
+    border-radius: 4px;
+}
+
+table {
+    border: 2px solid goldenrod;
+    border-radius: 8px;
+    background-color: lightblue;
+}
+
+.tprogram {
+    padding: 20px;
+    font-size: 20px;
+    background-color: lightyellow;
+    border: 2px solid goldenrod;
+    border-radius: 8px;
+}
+
+.tprogram>h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: blue;
+}
+
+.tprogram>ol {
+    color: darkorchid;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.feature,
+.overview {
+    background-color: skyblue;
+    margin: 0px;
+    padding: 5px;
+    border-radius: 4px;
+}
+
+.overview>p,
+.feature>ul,
+ol {
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.feature>h3,
+.overview>h3 {
+    color: blue;
+}
+
+.header{
+    padding: 10px;
+}
+
+
+.header>p {
+    text-align: center;
+    font-size: 30px;
+    color: red;
+}
+
+.header>h1 {
+    font-family: Georgia, serif;
+    font-size: 60px;
+    color: sandybrown;
+    text-align: center;
+}
+
+.link {
+    margin: 0px;
+    padding: 4px;
+    text-align: right;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #0056b3;
+}
+
+.link > a:hover {
+    color: #a1c6ea;
+}
+
+.link input[type="text"] {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.link button {
+    padding: 6px 10px;
+    background-color: sandybrown;
+    color: white;
+    border-radius: 4px;
+}
+
+.link button:hover {    
+    background-color: turquoise;
+}
+
+.link form {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.footer {
+    color: #fff;
+    /* padding: 20px; */
+}
+
+.footer a{
+    color: blue;
+}
+
+
+
+.main-footer{
+    background-color: steelblue;
+}
+
+.copyright{
+    text-align: center;
+}
+
+.copyright > h3{
+    text-align: center;
+    color: lightgoldenrodyellow;
+}
+
+
+.link>a {
+    color: #fff;
+    padding: 4px;
+    font-size: 17px;
+}
+
+
+
+row::after {
+    content: '';
+    clear: both;
+    display: table;
+}
+
+a {
+    text-decoration: none;
+}
+
+[class *="col-"] {
+    float: left;
+    padding: 15px;
+}
+
+.col-1 {
+    width: 8.33%;
+}
+
+.col-2 {
+    width: 16.66%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    width: 33.33%;
+}
+
+.col-5 {
+    width: 41.66%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-7 {
+    width: 58.33%;
+}
+
+.col-8 {
+    width: 66.66%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-10 {
+    width: 83.33%;
+}
+
+.col-11 {
+    width: 91.66%;
+}
+
+.col-12 {
+    width: 100%;
+}
